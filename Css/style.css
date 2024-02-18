@@ -1,0 +1,91 @@
+/* Import Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap");
+
+/* Reset default list styles */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: right;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+/* Display list items inline */
+nav ul li {
+  display: inline;
+  margin-right: 40px; /* Adjust spacing between menu items */
+}
+
+/* Remove margin from the last list item */
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+/* Style anchor links */
+nav ul li a {
+  text-decoration: none;
+  color: #000; /* Change the color as needed */
+  font-family: "Arial", monospace; /* Change the font family as needed */
+  font-size: 16px; /* Change the font size as needed */
+}
+
+/* Center the 'about' section horizontally */
+#about {
+  width: 60%; /* Adjust the width as needed */
+  margin: 0 auto; /* Set left and right margins to 'auto' */
+}
+
+/* Change font style for headings and paragraphs */
+h2,
+h3,
+p {
+  font-family: "Times New Roman", monospace; /* Change the font family as needed */
+  font-size: 18px; /* Change the font size as needed */
+  line-height: 1.5; /* Adjust line height as needed */
+}
+
+#Intro {
+  line-height: 0.5;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  margin-top: 80px;
+}
+
+#Detail-Intro {
+  text-indent: 60px;
+}
+#Name {
+  line-height: 0.5;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+/* Kode Mono font styling */
+.kode-mono-regular {
+  font-family: "Kode Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400; /* Regular weight */
+  font-style: normal;
+}
+
+.kode-mono-medium {
+  font-family: "Kode Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 500; /* Medium weight */
+  font-style: normal;
+}
+
+.kode-mono-semibold {
+  font-family: "Kode Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 600; /* Semibold weight */
+  font-style: normal;
+}
+
+.kode-mono-bold {
+  font-family: "Kode Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 700; /* Bold weight */
+  font-style: normal;
+}
