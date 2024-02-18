@@ -28,12 +28,31 @@ nav ul li a {
   color: #000; /* Change the color as needed */
   font-family: "Arial", monospace; /* Change the font family as needed */
   font-size: 16px; /* Change the font size as needed */
+  transition: font-size 0.5s ease; /* Add smooth transition for font size */
+}
+
+/* Apply hover effect to increase font size */
+nav ul li a:hover {
+  font-size: 20px; /* Increase font size on hover */
+  color: #000;
 }
 
 /* Center the 'about' section horizontally */
 #about {
   width: 60%; /* Adjust the width as needed */
   margin: 0 auto; /* Set left and right margins to 'auto' */
+}
+
+header {
+  text-align: center;
+  background-color: #f2f2f2;
+  margin: 0;
+}
+
+body{
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
 }
 
 /* Change font style for headings and paragraphs */
@@ -89,3 +108,27 @@ p {
   font-weight: 700; /* Bold weight */
   font-style: normal;
 }
+
+
+.typing-animation::after {
+    content: ""; /* Cursor placeholder */
+    animation: typing 1s steps(10, end), blink-caret 0.50s step-end infinite;
+    white-space: nowrap;
+    overflow: hidden;
+    width: auto;
+    display: inline-block;
+    vertical-align: bottom;
+  }
+  
+  @keyframes typing {
+    from { width: 0; }
+    to { width: auto; }
+  }
+  
+  
+ 
+  @keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: black; }
+  }
+  
