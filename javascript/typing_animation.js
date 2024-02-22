@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 }
             }
         }
-    }, 49); // Adjust the typing speed (in milliseconds)
+    }, 40); // Adjust the typing speed (in milliseconds)
     function displayOtherContent() {
         const additionalDetailText = " I am proficient in Flutter, Node.js, Getx, Bloc, REST API integration, Git, GitHub, MVC architecture, clean code practices, and problem-solving. I have interned at NextGen Techno Ventures Pvt. Ltd., led projects, and expanded my skills at Furation Tech Solution. I am ready to contribute effectively to your team with a passion for quality and collaboration.";
         let j = 0;
@@ -43,6 +43,6 @@ document.addEventListener("DOMContentLoaded", function() {
             } else {
                 clearInterval(typingAnimation);
             }
-        }, 25); // Adjust the typing speed (in milliseconds) for a slower transition
+        }, 20); // Adjust the typing speed (in milliseconds) for a slower transition
     }
 });
